@@ -4,6 +4,22 @@ This repository serves as a template for running various scripts with different 
 
 > **Note:** It's a new repo, so if you find any bugs, please let me know via issues
 
+## Script Overview
+
+The script provided automates the installation, configuration, and management of a service. It includes functions for:
+
+- **Checking dependencies**: Verifies the required system and Python packages are installed.
+- **Cloning the repository**: Fetches the script source code from GitHub.
+- **Managing the service**: Supports starting, stopping, restarting, and checking the status of the service.
+- **Logging**: Captures both standard and error logs during execution.
+- **Uninstalling the service**: Completely removes the installation, service files, and logs.
+
+
+### Notes:
+- **Installation**: This script installs the necessary dependencies and prepares the service for running.
+- **Service Management**: Start, stop, or restart the service with systemd commands.
+- **Logging**: Logs are written to a specified log file for easy tracking of service operations.
+
 
 ## Installation
 
@@ -70,24 +86,6 @@ After completing the installation, you can use the following commands:
   ```bash
   {SCRIPT_NAME} uninstall
   ```
-
----
-
-### Script Overview
-
-The script provided automates the installation, configuration, and management of a service. It includes functions for:
-
-- **Checking dependencies**: Verifies the required system and Python packages are installed.
-- **Cloning the repository**: Fetches the script source code from GitHub.
-- **Managing the service**: Supports starting, stopping, restarting, and checking the status of the service.
-- **Logging**: Captures both standard and error logs during execution.
-- **Uninstalling the service**: Completely removes the installation, service files, and logs.
-
-
-### Notes:
-- **Installation**: This script installs the necessary dependencies and prepares the service for running.
-- **Service Management**: Start, stop, or restart the service with systemd commands.
-- **Logging**: Logs are written to a specified log file for easy tracking of service operations.
 
 
 ## Contact & Support
